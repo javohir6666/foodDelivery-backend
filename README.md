@@ -50,8 +50,8 @@ python manage.py runserver
 API Endpoints
 
 Authentication
-POST /api/auth/register/: Register a new user.
-POST /api/auth/login/: Obtain a JWT token for authentication.
+POST /users/register/: Register a new user.
+POST /users/login/: Obtain a JWT token for authentication.
 
 Food Types
 GET /api/food/food-types/: List all food types.
