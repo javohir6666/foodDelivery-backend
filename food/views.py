@@ -13,3 +13,5 @@ class CategoryViewSet(viewsets.ModelViewSet):
 class FoodItemViewSet(viewsets.ModelViewSet):
     queryset = FoodItem.objects.all()
     serializer_class = FoodItemSerializer
+    
+

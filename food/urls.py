@@ -3,6 +3,7 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from users.views import UserViewSet
 from food.views import FoodTypeViewSet, CategoryViewSet, FoodItemViewSet
+from .views import FoodTypeListCreateView, CategoryListCreateView, FoodItemListCreateView
 from orders.views import BasketViewSet, OrderViewSet, FeedbackViewSet
 
 router = DefaultRouter()
